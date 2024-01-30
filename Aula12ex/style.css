@@ -12,6 +12,7 @@ body{
     
 }
 
+
 header {
     margin-bottom: 10px;
     font-size: 2em;
@@ -25,8 +26,21 @@ header {
     background-color: white;
     border-radius: 60px;
     box-shadow: 3px 5px 30px rgba(0, 0, 0, 0.566);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
+
+#msg{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding-bottom: 50px;
+}
+
+
 
 footer {
     margin-top: 10px;
